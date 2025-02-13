@@ -9,7 +9,8 @@ import HelloWorldCat from './helloWorldCat';
 export default function App() {
   return (
     <View style={styles.container}>
-      <HelloWorldCat />
+      {/*<HelloWorldCat />*/}
+      
       <StatusBar style="auto" />
     </View>
   );
