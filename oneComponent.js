@@ -1,6 +1,7 @@
 import React from "react";
 import { Text } from "react-native";
-const Cat = () => {
+
+const Cats = () => {
     return (
         <Text>
             Hello I am a cat!
@@ -9,5 +10,5 @@ const Cat = () => {
 };
 
 
-export default Cat;
+export default Cats;
 

@@ -5,12 +5,18 @@ import React, { useState } from 'react';
 import Counter from './Counter';
 import Marslan from './marslan';
 import HelloWorldCat from './helloWorldCat';
+import JsonRequest from './JsonRequest';
+import CustomComponent from './customComponent';
+import Shape from './shape';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/*<HelloWorldCat />*/}
-      
+
+      <Text>Merhaba Dünya!</Text>
+      <Shape />
+
       <StatusBar style="auto" />
     </View>
   );
